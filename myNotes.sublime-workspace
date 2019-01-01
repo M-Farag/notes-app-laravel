@@ -1,0 +1,509 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"auto",
+				"autocomplete\tAttr"
+			],
+			[
+				"conta",
+				"container-fluid \tBootstrap 4 Class"
+			],
+			[
+				"nav",
+				"navbar \tBootstrap 4 Class"
+			],
+			[
+				"b4",
+				"b4:navbar\tnavbar"
+			],
+			[
+				"Pro",
+				"ProjectDeleteSuccess"
+			],
+			[
+				"Send",
+				"SendProjectDeletNotification"
+			],
+			[
+				"Projec",
+				"ProjectWasDeleted"
+			],
+			[
+				"Ser",
+				"Services"
+			],
+			[
+				"task",
+				"taskDetails"
+			],
+			[
+				"pro",
+				"Project"
+			],
+			[
+				"aut",
+				"autocomplete\tAttr"
+			],
+			[
+				"lap",
+				"laptopPartsController"
+			],
+			[
+				"valid",
+				"validated"
+			],
+			[
+				"laptopPa",
+				"laptopPartsController"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"dec",
+				"text-decoration\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"bok",
+				"books"
+			],
+			[
+				"all",
+				"allBooks"
+			],
+			[
+				"bo",
+				"book"
+			],
+			[
+				"phone",
+				"phonesController"
+			],
+			[
+				"tas",
+				"tasks"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"project ",
+				"Project: Close"
+			],
+			[
+				"package control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package res",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"colors",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"new file",
+				"File: New View into File"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: searc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mina/Code/mynotes",
+		"/Users/mina/Code/mynotes/resources",
+		"/Users/mina/Code/mynotes/resources/views",
+		"/Users/mina/Code/mynotes/resources/views/notes"
+	],
+	"file_history":
+	[
+		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
+		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
+		"/Users/mina/Code/mynotes/routes/web.php",
+		"/Users/mina/Code/mynotes/database/migrations/2018_12_31_233720_create_notes_table.php",
+		"/Users/mina/Code/mynotes/.env",
+		"/Users/mina/Code/mynotes/resources/views/welcome.blade.php",
+		"/Users/mina/Code/myworkspace/routes/web.php",
+		"/Users/mina/Code/myworkspace/resources/views/welcome.blade.php",
+		"/Users/mina/Code/myworkspace/.env",
+		"/Users/mina/Code/theproject/theproject.sublime-project",
+		"/Users/mina/Code/theproject/resources/views/test.blade.php",
+		"/Users/mina/Code/theproject/app/User.php",
+		"/Users/mina/Code/theproject/package.json",
+		"/Users/mina/Code/theproject/webpack.mix.js",
+		"/Users/mina/Code/theproject/public/mix-manifest.json",
+		"/Users/mina/Code/theproject/resources/views/welcome.blade.php",
+		"/Users/mina/Code/theproject/resources/sass/app.scss",
+		"/Users/mina/Code/theproject/routes/web.php",
+		"/Users/mina/Code/theproject/app/Http/Controllers/ProjectsController.php",
+		"/Users/mina/Code/theproject/resources/views/projects/index.blade.php",
+		"/Users/mina/Code/theproject/app/Notifications/ProjectDeleteSuccess.php",
+		"/Users/mina/Code/theproject/database/migrations/2018_12_04_200004_create_tasks_table.php",
+		"/Users/mina/Code/theproject/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php",
+		"/Users/mina/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/Users/mina/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme.skins",
+		"/Users/mina/Code/theproject/app/Providers/EventServiceProvider.php",
+		"/Users/mina/Code/theproject/app/Events/ProjectWasDeleted.php",
+		"/Users/mina/Code/theproject/app/Listeners/SendProjectDeleteNotification.php",
+		"/Users/mina/Code/theproject/app/Listeners/SendEmailNotificationToUser.php",
+		"/Users/mina/Code/theproject/app/Mail/ProjectDeleted.php",
+		"/Users/mina/Code/theproject/resources/views/mail/projectDeleted.blade.php",
+		"/Users/mina/Code/theproject/app/Events/ProjectWasCreated.php",
+		"/Users/mina/Code/theproject/app/Project.php",
+		"/Users/mina/Code/theproject/resources/views/templates/layout.blade.php",
+		"/Users/mina/Code/theproject/app/Mail/ProjectCreated.php",
+		"/Users/mina/Code/theproject/resources/views/mail/ProjectCreated.blade.php",
+		"/Users/mina/Code/theproject/.env",
+		"/Users/mina/Code/theproject/app/Providers/TelescopeServiceProvider.php",
+		"/Users/mina/Code/theproject/app/Http/Controllers/ProjectTasksController.php",
+		"/Users/mina/Code/theproject/app/Task.php",
+		"/Users/mina/Code/theproject/resources/views/projects/show.blade.php",
+		"/Users/mina/Code/theproject/app/Providers/AuthServiceProvider.php",
+		"/Users/mina/Code/theproject/resources/views/projects/tasks/index.blade.php",
+		"/Users/mina/Code/theproject/resources/views/projects/edit.blade.php",
+		"/Users/mina/Code/theproject/app/Providers/SocailServiceProvider.php",
+		"/Users/mina/Code/theproject/app/Services/Facebook.php",
+		"/Users/mina/Code/theproject/config/services.php",
+		"/Users/mina/Code/theproject/config/app.php",
+		"/Users/mina/Code/theproject/app/Facebook.php",
+		"/Users/mina/Code/theproject/app/services/Facebook.php",
+		"/Users/mina/Code/theproject/app/services/facebook",
+		"/Users/mina/Code/theproject/app/services/Facebook",
+		"/Users/mina/Code/theproject/app/Policies/ProjectsPolicy.php",
+		"/Users/mina/Code/theproject/resources/views/projects/create.blade.php",
+		"/Users/mina/Code/theproject/database/migrations/2018_12_04_165141_create_projects_table.php",
+		"/Users/mina/Code/theproject/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Users/mina/Code/myprojectmanager/routes/web.php",
+		"/Users/mina/Code/myprojectmanager/app/Http/Controllers/projectsController.php",
+		"/Users/mina/Code/myprojectmanager/app/Policies/ProjectPolicy.php",
+		"/Users/mina/Code/myprojectmanager/app/Providers/AuthServiceProvider.php",
+		"/Users/mina/Code/myprojectmanager/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php",
+		"/Users/mina/Code/myprojectmanager/database/migrations/2018_11_27_203656_create_projects_table.php",
+		"/Users/mina/Code/myprojectmanager/config/services.php",
+		"/Users/mina/Code/myprojectmanager/.env",
+		"/Users/mina/Code/myprojectmanager/app/Providers/SocialServiceProvider.php",
+		"/Users/mina/Code/myprojectmanager/config/mail.php",
+		"/Users/mina/Code/myprojectmanager/config/app.php",
+		"/Users/mina/Code/myprojectmanager/app/Providers/AppServiceProvider.php",
+		"/Users/mina/Code/myprojectmanager/app/Example.php",
+		"/Users/mina/Code/myprojectmanager/app/Services/Twitter.php",
+		"/Users/mina/Code/myprojectmanager/App/Services2/Twitter.php",
+		"/Users/mina/Code/myprojectmanager/resources/views/projects/index.blade.php",
+		"/Users/mina/Code/myprojectmanager/app/Foo.php",
+		"/Users/mina/Code/myprojectmanager/vendor/myclabs/deep-copy/fixtures/f003/Foo.php",
+		"/Users/mina/Code/myprojectmanager/app/Example",
+		"/Users/mina/Code/myprojectmanager/app/Munchy.php",
+		"/Users/mina/Code/myprojectmanager/app/foo.php",
+		"/Users/mina/Code/myprojectmanager/app/Project.php",
+		"/Users/mina/Code/myprojectmanager/app/Task.php",
+		"/Users/mina/Code/myprojectmanager/resources/views/projects/show.blade.php",
+		"/Users/mina/Code/myprojectmanager/app/Http/Controllers/projectTasksController.php",
+		"/Users/mina/Code/myprojectmanager/database/migrations/2018_11_28_211242_create_tasks_table.php",
+		"/Users/mina/Code/myprojectmanager/resources/views/projects/edit.blade.php",
+		"/Users/mina/Code/myprojectmanager/resources/views/projects/create.blade.php",
+		"/Users/mina/Code/myprojectmanager/resources/views/templates/projectsTemplate.blade.php",
+		"/Users/mina/Code/myprojectmanager/resources/views/welcome.blade.php",
+		"/Users/mina/Code/demo/resources/views/includes/errorShow.blade.php",
+		"/Users/mina/Code/demo/routes/web.php",
+		"/Users/mina/Code/demo/app/Laptop.php",
+		"/Users/mina/Code/demo/app/Part.php",
+		"/Users/mina/Code/demo/database/migrations/2018_11_20_182531_create_parts_table.php",
+		"/Users/mina/Code/demo/app/Http/Controllers/laptopsController.php",
+		"/Users/mina/Code/demo/resources/views/laptops/edit.blade.php",
+		"/Users/mina/Code/demo/resources/views/laptops/show.blade.php",
+		"/Users/mina/Code/demo/resources/views/laptops/index.blade.php",
+		"/Users/mina/Code/demo/resources/views/laptops/create.blade.php",
+		"/Users/mina/Code/demo/resources/views/templates/laptopsTemplate.blade.php",
+		"/Users/mina/Code/demo/database/migrations/2018_11_20_124247_create_laptops_table.php",
+		"/Users/mina/Code/demo/app/Http/Controllers/tasksStudentController.php",
+		"/Users/mina/Code/demo/app/Task.php",
+		"/Users/mina/Code/demo/resources/views/students/show.blade.php",
+		"/Users/mina/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/mina/Code/demo/resources/views/templates/studentsTemplate.blade.php",
+		"/Users/mina/Code/demo/app/Http/Controllers/studentsController.php",
+		"/Users/mina/Code/demo/resources/views/students/create.blade.php",
+		"/Users/mina/Code/demo/app/Student.php",
+		"/Users/mina/Code/demo/database/migrations/2018_11_19_151922_create_tasks_table.php",
+		"/Users/mina/Code/demo/vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+		"/Users/mina/Code/demo/resources/views/students/index.blade.php",
+		"/Users/mina/Code/demo/resources/views/students/edit.blade.php",
+		"/Users/mina/Code/demo/database/migrations/2018_11_18_185228_create_students_table.php",
+		"/Users/mina/Code/demo/database/migrations/2018_11_18_184631_create_studnets_table.php",
+		"/Users/mina/Code/demo/app/Http/Controllers/pagesController.php",
+		"/Users/mina/Code/demo/app/Http/Controllers/booksController.php",
+		"/Users/mina/Code/demo/app/Book.php",
+		"/Users/mina/Code/demo/resources/views/books/show.blade.php",
+		"/Users/mina/Code/demo/resources/views/books/index.blade.php",
+		"/Users/mina/Code/demo/resources/views/books/edit.blade.php",
+		"/Users/mina/Code/demo/resources/views/templates/booksTemplate.blade.php",
+		"/Users/mina/Code/demo/resources/views/books/create.blade.php",
+		"/Users/mina/Code/demo/resources/views/templates/booksTemplates.blade.php",
+		"/Users/mina/Code/demo/database/migrations/2018_11_17_211335_create_books_table.php",
+		"/Users/mina/Code/demo/app/Http/Controllers/phonesController.php",
+		"/Users/mina/Code/demo/resources/views/templates/phonesTemplate.blade.php",
+		"/Users/mina/Code/demo/app/Phone.php",
+		"/Users/mina/Code/demo/resources/views/phones/index.blade.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<li><a href=\"/notes\">Home</a></li>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "myNotes.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"notesC",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				"a/h/n",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				"r/w",
+				"routes/web.php"
+			],
+			[
+				"d/m/",
+				"database/migrations/2018_12_31_233720_create_notes_table.php"
+			],
+			[
+				"r/v/w",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"app/user",
+				"app/User.php"
+			],
+			[
+				"app/Foo.php",
+				"vendor/myclabs/deep-copy/fixtures/f003/Foo.php"
+			],
+			[
+				"welcom",
+				"resources/views/welcome.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Code/theproject/theproject.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
