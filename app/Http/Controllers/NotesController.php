@@ -39,8 +39,18 @@ class NotesController extends Controller
      */
     public function store(Request $request)
     {
-        //saving data
-        Note::create(request(['title','details','color']));
+        //validation
+        $validated = $request->validate([
+            'title'=>['required','min:3','max:100'],
+            'details'=>['required','min:10','max:1000'],
+            'color'=>['required','min:3']
+        ],
+            [
+                //adding Custome Messages
+                'title.required'=>'Title not here'
+            ]
+        );
+        Note::create($validated);
         return redirect('notes');
     }
 
@@ -81,8 +91,13 @@ class NotesController extends Controller
      */
     public function update(Request $request, Note $note)
     {
-        //
-        $note->update($request->all());
+        //validation
+        $validated = $request->validate([
+            'title'=>['required','min:3','max:50'],
+            'details'=>['required','min:10','max:1000'],
+            'color'=>['required','min:3']
+        ]);
+        $note->update($validated);
 
         return back();
     }
