@@ -15,11 +15,18 @@
 			@if ($note->hints->count())
 			<div class="col-4">
 					<h5>assigned hints</h5>
-					<ul>
+					
 						@foreach($note->hints as $hint)
-							<li>{{$hint->body}}</li>
+							<form action="/hints/{{$hint->id}}" method="post">
+								@csrf
+								@method('PATCH')
+								<div class="form-group mb-1 text-monospace {{$hint->completed? 'is-completed':''}}">
+									<input type="checkbox" name="completed" onchange="this.form.submit()" {{$hint->completed? 'checked':''}}> {{$hint->body}}
+								</div> 
+								
+							</form>
 						@endforeach
-					</ul>
+					
 			</div>
 			@endif
 
@@ -32,6 +39,18 @@
 						@csrf
 						<button class="btn btn-outline-danger">Erase it</button></form></li>
 				</ul>
+			</div>
+		</div>
+
+		<div class="row mt-5">
+			<div class="col-6">
+				<h5>add new Hint</h5>
+				<form class="form-inline">
+				<div class="form-group">
+					<input type="text" name="body" class="form-control form-control-sm mr-3">
+					<input type="submit" name="save" value="save" class="btn btn-outline-primary form-control">
+				</div>
+			</form>
 			</div>
 		</div>
 	</div>

@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"border",
+				"border-danger \tBootstrap 4 Class"
+			],
+			[
+				"bord",
+				"border-danger \tBootstrap 4 Class"
+			],
+			[
+				"validat",
+				"validated"
+			],
+			[
+				"btn-out",
+				"btn-outline-primary \tBootstrap 4 Class"
+			],
+			[
+				"form-c",
+				"form-control \tBootstrap 4 Class"
+			],
+			[
 				"auto",
 				"autocomplete\tAttr"
 			],
@@ -99,6 +123,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Note.php",
+			"settings":
+			{
+				"buffer_size": 303,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/notes/show.blade.php",
+			"settings":
+			{
+				"buffer_size": 906,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -215,19 +257,25 @@
 	[
 		"/Users/mina/Code/mynotes",
 		"/Users/mina/Code/mynotes/resources",
-		"/Users/mina/Code/mynotes/resources/views",
-		"/Users/mina/Code/mynotes/resources/views/notes"
+		"/Users/mina/Code/mynotes/resources/views"
 	],
 	"file_history":
 	[
-		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
-		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
-		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
+		"/Users/mina/Code/mynotes/app/Hint.php",
+		"/Users/mina/Code/mynotes/database/migrations/2019_01_01_202946_create_hints_table.php",
 		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
+		"/Users/mina/Code/mynotes/README.md",
+		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
 		"/Users/mina/Code/mynotes/routes/web.php",
+		"/Users/mina/Code/mynotes/resources/views/welcome.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
+		"/Users/mina/Code/mynotes/app/Note.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
+		"/Users/mina/Code/mynotes/public/index.php",
 		"/Users/mina/Code/mynotes/database/migrations/2018_12_31_233720_create_notes_table.php",
 		"/Users/mina/Code/mynotes/.env",
-		"/Users/mina/Code/mynotes/resources/views/welcome.blade.php",
 		"/Users/mina/Code/myworkspace/routes/web.php",
 		"/Users/mina/Code/myworkspace/resources/views/welcome.blade.php",
 		"/Users/mina/Code/myworkspace/.env",
@@ -340,14 +388,7 @@
 		"/Users/mina/Code/demo/resources/views/books/show.blade.php",
 		"/Users/mina/Code/demo/resources/views/books/index.blade.php",
 		"/Users/mina/Code/demo/resources/views/books/edit.blade.php",
-		"/Users/mina/Code/demo/resources/views/templates/booksTemplate.blade.php",
-		"/Users/mina/Code/demo/resources/views/books/create.blade.php",
-		"/Users/mina/Code/demo/resources/views/templates/booksTemplates.blade.php",
-		"/Users/mina/Code/demo/database/migrations/2018_11_17_211335_create_books_table.php",
-		"/Users/mina/Code/demo/app/Http/Controllers/phonesController.php",
-		"/Users/mina/Code/demo/resources/views/templates/phonesTemplate.blade.php",
-		"/Users/mina/Code/demo/app/Phone.php",
-		"/Users/mina/Code/demo/resources/views/phones/index.blade.php"
+		"/Users/mina/Code/demo/resources/views/templates/booksTemplate.blade.php"
 	],
 	"find":
 	{
@@ -365,6 +406,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"is",
+			"-row",
+			"row",
 			"<li><a href=\"/notes\">Home</a></li>"
 		],
 		"highlight": true,
@@ -383,8 +427,66 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Note.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/notes/show.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								533,
+								533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 341.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -437,7 +539,63 @@
 		"selected_items":
 		[
 			[
+				"show",
+				"resources/views/notes/show.blade.php"
+			],
+			[
+				"Not",
+				"app/Note.php"
+			],
+			[
+				"Hint",
+				"app/Hint.php"
+			],
+			[
+				"hints",
+				"database/migrations/2019_01_01_202946_create_hints_table.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				".md",
+				"README.md"
+			],
+			[
+				"r/v/c",
+				"resources/views/notes/create.blade.php"
+			],
+			[
+				"Note",
+				"app/Note.php"
+			],
+			[
+				"mast",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
 				"notesC",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				"n/in",
+				"resources/views/notes/index.blade.php"
+			],
+			[
+				"index",
+				"public/index.php"
+			],
+			[
+				"Note.",
+				"app/Note.php"
+			],
+			[
+				"master",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
+				"a/h/c",
 				"app/Http/Controllers/NotesController.php"
 			],
 			[
@@ -501,7 +659,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 245.0,
+	"side_bar_width": 299.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

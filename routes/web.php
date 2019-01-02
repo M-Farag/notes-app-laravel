@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::resource('notes','NotesController');
+
+//HintsUpdate
+Route::patch('hints/{hint}','NotesHintsController@update');

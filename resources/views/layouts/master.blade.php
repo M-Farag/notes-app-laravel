@@ -3,6 +3,12 @@
 <head>
 	<title>@yield('title','My Notes v1.0')</title>
 	<link rel="stylesheet" type="text/css" href="/css/app.css">
+	<style type="text/css">
+		.is-completed{
+			text-decoration: line-through;
+			color: lightgray;
+		}
+	</style>
 </head>
 <body>
 	<div class="jumbotron text-center">
