@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "my-notes",
+    "builds": [
+    	{ "src": "*.html", "use": "@now/static" },
+         { "src": "*.php", "use": "@now/php" },
+    	 { "src": "*.js", "use": "@now/node" },
+    ]
+}
