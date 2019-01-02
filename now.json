@@ -4,6 +4,6 @@
     "builds": [
     	{ "src": "*.html", "use": "@now/static" }, 
          { "src": "*.php", "use": "@now/php" },
-    	 { "src": "*.js", "use": "@now/node" },
+    	 { "src": "*.js", "use": "@now/node" }
     ]
 }
