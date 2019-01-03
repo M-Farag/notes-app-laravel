@@ -45,7 +45,8 @@
 		<div class="row mt-5">
 			<div class="col-6">
 				<h5>add new Hint</h5>
-				<form class="form-inline">
+				<form class="form-inline" method="post" action="/notes/{{$note->id}}/hint">
+					@csrf
 				<div class="form-group">
 					<input type="text" name="body" class="form-control form-control-sm mr-3">
 					<input type="submit" name="save" value="save" class="btn btn-outline-primary form-control">

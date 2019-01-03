@@ -4,12 +4,25 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Hint;
+use App\Note;
 
 class NotesHintsController extends Controller
 {
     //
     public function update(Hint $hint){
     	$hint->update(['completed'=>request()->has('completed')]);
+    	return back();
+    }
+
+    public function store(Note $note){
+    	//validation
+    	$validated = request()->validate(
+    		[
+    			'body'=>'required'
+    		]
+    	);
+    	
+    	$note->addHint($validated);
     	return back();
     }
 }

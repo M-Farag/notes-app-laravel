@@ -14,5 +14,9 @@ class Note extends Model
     public function hints(){
     	return $this->hasMany(Hint::class);
     }
+
+    public function addHint($body){
+    	$this->hints()->create($body);
+    }
     
 }

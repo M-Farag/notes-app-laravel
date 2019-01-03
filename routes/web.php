@@ -19,3 +19,5 @@ Route::resource('notes','NotesController');
 
 //HintsUpdate
 Route::patch('hints/{hint}','NotesHintsController@update');
+//add new hint
+Route::post('/notes/{note}/hint','NotesHintsController@store');
