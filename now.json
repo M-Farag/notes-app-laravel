@@ -2,8 +2,13 @@
     "version": 2,
     "name": "my-notes",
     "builds": [
+<<<<<<< HEAD
     	{ "src": "*.html", "use": "@now/static" }, 
          { "src": "*.php", "use": "@now/php" },
     	 { "src": "*.js", "use": "@now/node" }
     ]
+=======
+   			{ "src": "*.php", "use": "@now/php" }
+    		 ]
+>>>>>>> 95f74510346b25dfa338ba9b9f14027ad0c0933a
 }
