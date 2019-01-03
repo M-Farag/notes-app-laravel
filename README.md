@@ -7,7 +7,7 @@ __Features:__
 1. adding notes on the go.
 2. editing , deleting Notes.
 3. Data Validation with custome messages.
+4. adding Hints in notes as sub tasks or points to be checked 'completed/not-completed'
 
 __upcoming updates:__
 1. users auth-system.
-2. sub-notes Hints/Tasks.
