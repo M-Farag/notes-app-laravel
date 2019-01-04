@@ -10,18 +10,13 @@ class NotesHintsController extends Controller
 {
     //
     public function update(Hint $hint){
-    	$hint->update(['completed'=>request()->has('completed')]);
-    	return back();
+    	request()->has('completed')? $hint->completed() : $hint->incompleted();
+        return back();
     }
 
     public function store(Note $note){
     	//validation
-    	$validated = request()->validate(
-    		[
-    			'body'=>'required'
-    		]
-    	);
-    	
+    	$validated = request()->validate( [ 'body'=>'required' ] );
     	$note->addHint($validated);
     	return back();
     }

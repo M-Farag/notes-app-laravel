@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Note",
+				"NotesHintsController"
+			],
+			[
 				"back",
 				"background-color\tproperty"
 			],
@@ -124,11 +128,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/Note.php",
+			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 303,
-				"encoding": "UTF-8",
+				"buffer_size": 652,
 				"line_ending": "Unix"
 			}
 		},
@@ -136,35 +139,7 @@
 			"file": "resources/views/notes/show.blade.php",
 			"settings":
 			{
-				"buffer_size": 1578,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "now.json",
-			"settings":
-			{
-				"buffer_size": 114,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/layouts/master.blade.php",
-			"settings":
-			{
-				"buffer_size": 672,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/web.php",
-			"settings":
-			{
-				"buffer_size": 572,
-				"encoding": "UTF-8",
+				"buffer_size": 1638,
 				"line_ending": "Unix"
 			}
 		},
@@ -172,17 +147,24 @@
 			"file": "app/Http/Controllers/NotesHintsController.php",
 			"settings":
 			{
-				"buffer_size": 271,
+				"buffer_size": 497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 414,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Hint.php",
+			"file": "app/Note.php",
 			"settings":
 			{
-				"buffer_size": 170,
-				"encoding": "UTF-8",
+				"buffer_size": 382,
 				"line_ending": "Unix"
 			}
 		}
@@ -304,18 +286,20 @@
 	],
 	"file_history":
 	[
-		"/Users/mina/Code/mynotes/database/migrations/2019_01_01_202946_create_hints_table.php",
 		"/Users/mina/Code/mynotes/app/Hint.php",
+		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesHintsController.php",
+		"/Users/mina/Code/mynotes/routes/web.php",
+		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
+		"/Users/mina/Code/mynotes/app/Note.php",
+		"/Users/mina/Code/mynotes/now.json",
+		"/Users/mina/Code/mynotes/database/migrations/2019_01_01_202946_create_hints_table.php",
 		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
 		"/Users/mina/Code/mynotes/README.md",
 		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
-		"/Users/mina/Code/mynotes/routes/web.php",
 		"/Users/mina/Code/mynotes/resources/views/welcome.blade.php",
-		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
-		"/Users/mina/Code/mynotes/app/Note.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
-		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
 		"/Users/mina/Code/mynotes/public/index.php",
 		"/Users/mina/Code/mynotes/database/migrations/2018_12_31_233720_create_notes_table.php",
 		"/Users/mina/Code/mynotes/.env",
@@ -429,9 +413,7 @@
 		"/Users/mina/Code/demo/app/Http/Controllers/booksController.php",
 		"/Users/mina/Code/demo/app/Book.php",
 		"/Users/mina/Code/demo/resources/views/books/show.blade.php",
-		"/Users/mina/Code/demo/resources/views/books/index.blade.php",
-		"/Users/mina/Code/demo/resources/views/books/edit.blade.php",
-		"/Users/mina/Code/demo/resources/views/templates/booksTemplate.blade.php"
+		"/Users/mina/Code/demo/resources/views/books/index.blade.php"
 	],
 	"find":
 	{
@@ -470,138 +452,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Note.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 303,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								261,
-								261
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/views/notes/show.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1578,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1338,
-								1338
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 866.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "now.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								103,
-								103
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/layouts/master.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 672,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								235,
-								235
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "routes/web.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 572,
+						"buffer_size": 652,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								527,
-								527
+								651,
+								651
 							]
 						],
 						"settings":
@@ -616,48 +484,105 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/Http/Controllers/NotesHintsController.php",
+					"buffer": 1,
+					"file": "resources/views/notes/show.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 271,
+						"buffer_size": 1638,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								262,
-								262
+								1371,
+								1371
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 841.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "app/Hint.php",
+					"buffer": 2,
+					"file": "app/Http/Controllers/NotesHintsController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 170,
+						"buffer_size": 497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								113,
-								113
+								466,
+								466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Note.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								368
 							]
 						],
 						"settings":
@@ -668,7 +593,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -723,6 +648,26 @@
 		"selected_items":
 		[
 			[
+				"read",
+				"README.md"
+			],
+			[
+				"note",
+				"app/Note.php"
+			],
+			[
+				"noteshint",
+				"app/Http/Controllers/NotesHintsController.php"
+			],
+			[
+				"show",
+				"resources/views/notes/show.blade.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
 				"maste",
 				"resources/views/layouts/master.blade.php"
 			],
@@ -739,20 +684,12 @@
 				"database/migrations/2019_01_01_202946_create_hints_table.php"
 			],
 			[
-				"show",
-				"resources/views/notes/show.blade.php"
-			],
-			[
 				"Not",
 				"app/Note.php"
 			],
 			[
 				"Hint",
 				"app/Hint.php"
-			],
-			[
-				"web",
-				"routes/web.php"
 			],
 			[
 				".md",
@@ -855,7 +792,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 359.0,
+	"side_bar_width": 242.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
