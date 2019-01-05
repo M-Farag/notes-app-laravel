@@ -29,10 +29,18 @@ Route::post('/notes/{note}/hint','NotesHintsController@store');
 	// }); 
 
 	//twitter api-key-test
-	app()->singleton('twitterKey',function(){
-		return new \App\Services\Twitter('Munchy-Key-Here');
-	});
+	// app()->singleton('twitterKey',function(){
+	// 	return new \App\Services\Twitter('Munchy-Key-Here');
+	// });
+
+// Route::get('/app',function(){
+// dd(app('App\Example'),app('twitterKey'));
+// });
 
 Route::get('/app',function(){
-dd(app('App\Example'),app('twitterKey'));
+	dd(app('twitter'));
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

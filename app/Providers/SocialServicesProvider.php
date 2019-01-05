@@ -4,11 +4,10 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use App\Services\Twitter;
-
-class AppServiceProvider extends ServiceProvider
+class SocialServicesProvider extends ServiceProvider
 {
     /**
-     * Bootstrap any application services.
+     * Bootstrap services.
      *
      * @return void
      */
@@ -18,12 +17,15 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register any application services.
+     * Register services.
      *
      * @return void
      */
     public function register()
     {
-        
+        //
+        app()->singleton('twitter',function(){
+            return new Twitter(config('services.twitter.secret'));  
+        });
     }
 }

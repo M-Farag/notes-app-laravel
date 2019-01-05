@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"twitter",
+				"twitterKey"
+			],
+			[
 				"Note",
 				"NotesHintsController"
 			],
@@ -127,47 +131,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "routes/web.php",
-			"settings":
-			{
-				"buffer_size": 652,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/notes/show.blade.php",
-			"settings":
-			{
-				"buffer_size": 1638,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/NotesHintsController.php",
-			"settings":
-			{
-				"buffer_size": 497,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 414,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Note.php",
-			"settings":
-			{
-				"buffer_size": 382,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -286,16 +249,19 @@
 	],
 	"file_history":
 	[
-		"/Users/mina/Code/mynotes/app/Hint.php",
-		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesHintsController.php",
 		"/Users/mina/Code/mynotes/routes/web.php",
-		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
+		"/Users/mina/Code/mynotes/app/services/Twitter.php",
+		"/Users/mina/Code/mynotes/app/Example.php",
+		"/Users/mina/Code/mynotes/app/Foo.php",
+		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesHintsController.php",
+		"/Users/mina/Code/mynotes/app/Hint.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
 		"/Users/mina/Code/mynotes/app/Note.php",
+		"/Users/mina/Code/mynotes/README.md",
+		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
 		"/Users/mina/Code/mynotes/now.json",
 		"/Users/mina/Code/mynotes/database/migrations/2019_01_01_202946_create_hints_table.php",
 		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
-		"/Users/mina/Code/mynotes/README.md",
 		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/welcome.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
@@ -410,10 +376,7 @@
 		"/Users/mina/Code/demo/database/migrations/2018_11_18_185228_create_students_table.php",
 		"/Users/mina/Code/demo/database/migrations/2018_11_18_184631_create_studnets_table.php",
 		"/Users/mina/Code/demo/app/Http/Controllers/pagesController.php",
-		"/Users/mina/Code/demo/app/Http/Controllers/booksController.php",
-		"/Users/mina/Code/demo/app/Book.php",
-		"/Users/mina/Code/demo/resources/views/books/show.blade.php",
-		"/Users/mina/Code/demo/resources/views/books/index.blade.php"
+		"/Users/mina/Code/demo/app/Http/Controllers/booksController.php"
 	],
 	"find":
 	{
@@ -431,6 +394,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-md-12",
+			"col-4",
 			"is",
 			"-row",
 			"row",
@@ -452,150 +417,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "routes/web.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 652,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								651,
-								651
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/views/notes/show.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1638,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1371,
-								1371
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 841.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/NotesHintsController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 497,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								466,
-								466
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 66.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 414,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								67,
-								169
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/Note.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 382,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								368,
-								368
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -648,24 +471,32 @@
 		"selected_items":
 		[
 			[
-				"read",
-				"README.md"
-			],
-			[
-				"note",
-				"app/Note.php"
-			],
-			[
-				"noteshint",
-				"app/Http/Controllers/NotesHintsController.php"
+				"web",
+				"routes/web.php"
 			],
 			[
 				"show",
 				"resources/views/notes/show.blade.php"
 			],
 			[
-				"web",
-				"routes/web.php"
+				"hint",
+				"app/Hint.php"
+			],
+			[
+				"note",
+				"app/Note.php"
+			],
+			[
+				"noteshints",
+				"app/Http/Controllers/NotesHintsController.php"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"noteshint",
+				"app/Http/Controllers/NotesHintsController.php"
 			],
 			[
 				"maste",
