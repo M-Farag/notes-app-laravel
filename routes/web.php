@@ -21,3 +21,18 @@ Route::resource('notes','NotesController');
 Route::patch('hints/{hint}','NotesHintsController@update');
 //add new hint
 Route::post('/notes/{note}/hint','NotesHintsController@store');
+
+//service container 
+//inject a new toy
+	//app()->bind('App\Example',function(){
+	// return new \App\Example();
+	// }); 
+
+	//twitter api-key-test
+	app()->singleton('twitterKey',function(){
+		return new \App\Services\Twitter('Munchy-Key-Here');
+	});
+
+Route::get('/app',function(){
+dd(app('App\Example'),app('twitterKey'));
+});
