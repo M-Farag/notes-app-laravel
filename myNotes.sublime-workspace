@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"twit",
+				"twitter"
+			],
+			[
+				"twi",
+				"twitter"
+			],
+			[
+				"route",
+				"Route"
+			],
+			[
 				"twitter",
 				"twitterKey"
 			],
@@ -245,11 +257,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/mina/Code/mynotes"
+		"/Users/mina/Code/mynotes",
+		"/Users/mina/Code/mynotes/app",
+		"/Users/mina/Code/mynotes/config"
 	],
 	"file_history":
 	[
 		"/Users/mina/Code/mynotes/routes/web.php",
+		"/Users/mina/Code/mynotes/app/Providers/SocialServicesProvider.php",
+		"/Users/mina/Code/mynotes/config/app.php",
+		"/Users/mina/Code/mynotes/config/services.php",
+		"/Users/mina/Code/mynotes/.env",
+		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
+		"/Users/mina/Code/mynotes/app/Providers/AppServiceProvider.php",
 		"/Users/mina/Code/mynotes/app/services/Twitter.php",
 		"/Users/mina/Code/mynotes/app/Example.php",
 		"/Users/mina/Code/mynotes/app/Foo.php",
@@ -261,14 +281,12 @@
 		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
 		"/Users/mina/Code/mynotes/now.json",
 		"/Users/mina/Code/mynotes/database/migrations/2019_01_01_202946_create_hints_table.php",
-		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/welcome.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
 		"/Users/mina/Code/mynotes/public/index.php",
 		"/Users/mina/Code/mynotes/database/migrations/2018_12_31_233720_create_notes_table.php",
-		"/Users/mina/Code/mynotes/.env",
 		"/Users/mina/Code/myworkspace/routes/web.php",
 		"/Users/mina/Code/myworkspace/resources/views/welcome.blade.php",
 		"/Users/mina/Code/myworkspace/.env",
@@ -372,11 +390,7 @@
 		"/Users/mina/Code/demo/database/migrations/2018_11_19_151922_create_tasks_table.php",
 		"/Users/mina/Code/demo/vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
 		"/Users/mina/Code/demo/resources/views/students/index.blade.php",
-		"/Users/mina/Code/demo/resources/views/students/edit.blade.php",
-		"/Users/mina/Code/demo/database/migrations/2018_11_18_185228_create_students_table.php",
-		"/Users/mina/Code/demo/database/migrations/2018_11_18_184631_create_studnets_table.php",
-		"/Users/mina/Code/demo/app/Http/Controllers/pagesController.php",
-		"/Users/mina/Code/demo/app/Http/Controllers/booksController.php"
+		"/Users/mina/Code/demo/resources/views/students/edit.blade.php"
 	],
 	"find":
 	{
@@ -424,7 +438,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 46.0
 	},
 	"input":
 	{
@@ -471,6 +485,30 @@
 		"selected_items":
 		[
 			[
+				"Notescon",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"c/app",
+				"config/app.php"
+			],
+			[
+				"social",
+				"app/Providers/SocialServicesProvider.php"
+			],
+			[
+				"p/appse",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"we",
+				"routes/web.php"
+			],
+			[
 				"web",
 				"routes/web.php"
 			],
@@ -505,10 +543,6 @@
 			[
 				"noteshin",
 				"app/Http/Controllers/NotesHintsController.php"
-			],
-			[
-				"we",
-				"routes/web.php"
 			],
 			[
 				"hints",

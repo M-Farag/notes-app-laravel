@@ -21,7 +21,8 @@ class NotesController extends Controller
     {
         //
         return view('notes.index')->with([
-            'notes'=> Note::all()
+            //'notes'=> Note::all()
+            'notes'=>Note::where('owner_id',auth()->id())->get()
         ]);
     }
 
@@ -55,6 +56,8 @@ class NotesController extends Controller
                 'title.required'=>'Title not here'
             ]
         );
+        //appending owner_id
+        $validated['owner_id'] = auth()->id();
         Note::create($validated);
         return redirect('notes');
     }
