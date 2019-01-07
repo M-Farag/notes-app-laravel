@@ -14,8 +14,8 @@ __Features:__
 	* can register
 	* can login
 	* can add own Notes and Hints
-	>default-user group is : 1 __and it's the default value foreach new user__
-	>admin-group is : 2 __this needs to be setup manually__
+	>default-user group is : 1 __and it's the default value foreach new user__ .
+	>admin-group is : 2 __this needs to be setup manually__ .
 
 __upcoming updates:__
 1. customized Emails.
