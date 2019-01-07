@@ -21,8 +21,8 @@ class NotesController extends Controller
     {
         //
         return view('notes.index')->with([
-            //'notes'=> Note::all()
-            'notes'=>Note::where('owner_id',auth()->id())->get()
+            'notes'=>Note::where('owner_id',auth()->id())->get(),
+            'user'=> auth()->user()
         ]);
     }
 
@@ -45,6 +45,7 @@ class NotesController extends Controller
      */
     public function store(Request $request)
     {
+
         //validation
         $validated = $request->validate([
             'title'=>['required','min:3','max:100'],
@@ -70,9 +71,13 @@ class NotesController extends Controller
      */
     public function show(Note $note)
     {
-        //
+        //authorize
+            $this->authorize('update',$note);
+        
         return view('notes.show')->with(
-            ['note'=> $note]
+            [
+                'note'=> $note
+            ]
         );
     }
 
@@ -84,6 +89,7 @@ class NotesController extends Controller
      */
     public function edit(Note $note)
     {
+        $this->authorize('update',$note);
         //showing form
         return view('notes.edit')->with([
             'note'=>$note
@@ -99,6 +105,7 @@ class NotesController extends Controller
      */
     public function update(Request $request, Note $note)
     {
+        $this->authorize('update',$note);
         //validation
         $validated = $request->validate([
             'title'=>['required','min:3','max:50'],
@@ -118,6 +125,7 @@ class NotesController extends Controller
      */
     public function destroy(Note $note)
     {
+        $this->authorize('update',$note);
         //
        $note->delete();
        return redirect('notes');

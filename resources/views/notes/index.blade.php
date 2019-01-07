@@ -5,7 +5,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-4">
-				<h3>notes list/</h3>
+				<h3>{{$user->name."'s"}} notes list/</h3>
 				<ul>
 					@foreach($notes as $note)
 						<li><a href="/notes/{{$note->id}}" >{{$note->title}}</a></li>
