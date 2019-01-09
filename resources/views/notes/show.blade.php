@@ -4,7 +4,7 @@
 @section('content')
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-4">
+			<div class="col-sm-12 col-lg-4 mb-4">
 				<h5>data</h5>
 				<h4 class="lead">{{$note->title}}</h4>
 				<p style="color:{{$note->color}}" class="blockquote pl-3">
@@ -13,7 +13,7 @@
 			</div>
 			
 			@if ($note->hints->count())
-			<div class="col-4">
+			<div class="col-sm-12 col-lg-4 mb-4">
 					<h5>assigned hints</h5>
 					
 						@foreach($note->hints as $hint)
@@ -30,7 +30,7 @@
 			</div>
 			@endif
 
-			<div class="col-4">
+			<div class="col-sm-12 col-lg-4 mb-4">
 				<h5>options</h5>
 				<ul>
 					<li><a href="/notes/{{$note->id}}/edit" class="btn btn-outline-info mb-2">Edit it</a></li>

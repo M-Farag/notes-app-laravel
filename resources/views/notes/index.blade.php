@@ -4,7 +4,7 @@
 @section('content')
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-4">
+			<div class="col-6">
 				<h3>{{$user->name."'s"}} notes list/</h3>
 				<ul>
 					@foreach($notes as $note)

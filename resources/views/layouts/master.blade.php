@@ -12,10 +12,11 @@
 </head>
 <body>
 	<div class="jumbotron text-center">
-		<h1>NotesApp</h1>
+		<h1>MyNotes</h1>
 		<p>
-			add public notes <mark>on-the-go.</mark>
+			+ it <mark>onTheGo.</mark>
 		</p>
+		<small>v2.0</small>
 	</div>
 	
 	@yield('content')
@@ -23,8 +24,9 @@
 	<div class="container-fluid mt-4">
 		<div class="row">
 			<ul>
-				<li><a href="/notes">Home</a></li>
+				<li><a href="/notes">all notes</a></li>
 				<li><a href="/notes/create">add a note</a></li>
+				<li><a href="/home">dashboard</a></li>
 			</ul>
 		</div>
 	</div>

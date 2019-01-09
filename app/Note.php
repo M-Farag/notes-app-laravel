@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\User;
 
 class Note extends Model
 {
@@ -17,6 +18,10 @@ class Note extends Model
 
     public function addHint($body){
     	$this->hints()->create($body);
+    }
+
+    public function owner(){
+        return $this->belongsTo(USER::class);
     }
     
 }

@@ -13,14 +13,18 @@ __Features:__
 5. users auth-system.
 	* can register
 	* can login
-	* can add own Notes and Hints
-	> default-user group is : 1 __and it's the default value foreach new user__ .
+	* can add own Notes and Hints(subNotes)
 	
-	> admin-group is : 2 __this needs to be setup manually__ .
+	* user-Groups
+		* default-user group is : (1) __and it's the default value foreach new user__ .
+		* admin-group is : (2) __this needs to be setup manually__ .
 
-__upcoming updates:__
-1. customized Emails.
-2. notifications via Email & Whatsapp using ##Twilio##
+6. EMail Notifications:
+	* when user adds a new note.
+
+__Updates__
+> system is still on development. More New features will be added later-on.
 
 __Bug Log__
 * every loggedIn user can see others' Notes (Fixed)
+* Email Notification Bug (Fixed)

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Note;
 use Illuminate\Http\Request;
-
+use App\Mail\NoteCreated;
 class NotesController extends Controller
 {
 
@@ -51,7 +51,11 @@ class NotesController extends Controller
         $validated = $this->validatedNotes($request);
         //appending owner_id
         $validated['owner_id'] = auth()->id();
-        Note::create($validated);
+        $note = Note::create($validated);
+        //send Mail
+        \Mail::to($note->owner->email)->send(
+            new NoteCreated($note)
+        );
         return redirect('notes');
     }
 
