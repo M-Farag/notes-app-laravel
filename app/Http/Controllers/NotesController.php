@@ -21,7 +21,8 @@ class NotesController extends Controller
     {
         //
         return view('notes.index')->with([
-            'notes'=>Note::where('owner_id',auth()->id())->get(),
+            // 'notes'=>Note::where('owner_id',auth()->id())->get(),
+            'notes'=>auth()->user()->notes,
             'user'=> auth()->user()
         ]);
     }
@@ -47,16 +48,7 @@ class NotesController extends Controller
     {
 
         //validation
-        $validated = $request->validate([
-            'title'=>['required','min:3','max:100'],
-            'details'=>['required','min:10','max:1000'],
-            'color'=>['required','min:3']
-        ],
-            [
-                //adding Custome Messages
-                'title.required'=>'Title not here'
-            ]
-        );
+        $validated = $this->validatedNotes($request);
         //appending owner_id
         $validated['owner_id'] = auth()->id();
         Note::create($validated);
@@ -107,11 +99,7 @@ class NotesController extends Controller
     {
         $this->authorize('update',$note);
         //validation
-        $validated = $request->validate([
-            'title'=>['required','min:3','max:50'],
-            'details'=>['required','min:10','max:1000'],
-            'color'=>['required','min:3']
-        ]);
+        $validated = $this->validatedNotes($request);
         $note->update($validated);
 
         return back();
@@ -129,5 +117,17 @@ class NotesController extends Controller
         //
        $note->delete();
        return redirect('notes');
+    }
+    protected function validatedNotes($request){
+       return $request->validate([
+            'title'=>['required','min:3','max:100'],
+            'details'=>['required','min:10','max:1000'],
+            'color'=>['required','min:3']
+        ],
+            [
+                //adding Custome Messages
+                'title.required'=>'Title not here'
+            ]
+        );
     }
 }

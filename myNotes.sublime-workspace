@@ -143,15 +143,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/Providers/AuthServiceProvider.php",
-			"settings":
-			{
-				"buffer_size": 749,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -272,9 +263,10 @@
 	],
 	"file_history":
 	[
-		"/Users/mina/Code/mynotes/app/Policies/NotePolicy.php",
 		"/Users/mina/Code/mynotes/app/Providers/AuthServiceProvider.php",
 		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
+		"/Users/mina/Code/mynotes/README.md",
+		"/Users/mina/Code/mynotes/app/Policies/NotePolicy.php",
 		"/Users/mina/Code/mynotes/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/Users/mina/Code/mynotes/app/Http/Middleware/RedirectIfAuthenticated.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
@@ -294,7 +286,6 @@
 		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesHintsController.php",
 		"/Users/mina/Code/mynotes/app/Hint.php",
 		"/Users/mina/Code/mynotes/app/Note.php",
-		"/Users/mina/Code/mynotes/README.md",
 		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
 		"/Users/mina/Code/mynotes/now.json",
 		"/Users/mina/Code/mynotes/database/migrations/2019_01_01_202946_create_hints_table.php",
@@ -440,39 +431,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/Providers/AuthServiceProvider.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								666,
-								666
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 241.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -524,6 +484,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"notecontr",
+				"app/Http/Controllers/NotesController.php"
+			],
 			[
 				"p/auth",
 				"app/Providers/AuthServiceProvider.php"
@@ -611,10 +579,6 @@
 			[
 				"noteshints",
 				"app/Http/Controllers/NotesHintsController.php"
-			],
-			[
-				"read",
-				"README.md"
 			],
 			[
 				"noteshint",

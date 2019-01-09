@@ -14,12 +14,12 @@
 					</div>
 					<div class="form-group">
 						<label for="details">Details</label>
-						<textarea name="details" class="form-control {{$errors->has('details')? 'border-danger':''}}">{{old('title')}}</textarea>
+						<textarea name="details" class="form-control {{$errors->has('details')? 'border-danger':''}}">{{old('details')}}</textarea>
 					</div>
 
 					<div class="form-group">
 						<label for="color">Color</label>
-						<input type="text" class="form-control {{$errors->has('color')?'border-danger':''}}" name="color" autocomplete="off" placeholder="red or green or any #FFF code" value="{{old('title')}}">
+						<input type="text" class="form-control {{$errors->has('color')?'border-danger':''}}" name="color" autocomplete="off" placeholder="red or green or any #FFF code" value="{{old('color')}}">
 					</div>
 					<button type="submit" class="btn btn-outline-primary mt-3">Add Note</button>
 				</form>
