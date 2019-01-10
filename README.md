@@ -24,7 +24,7 @@ __Features:__
 
 __Updates__
 > system is still on development. More New features will be added later-on.
-
+1. Notes could contain an Image.
 __Bug Log__
 * every loggedIn user can see others' Notes (Fixed)
 * Email Notification Bug (Fixed)

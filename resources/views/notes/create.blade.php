@@ -3,9 +3,11 @@
 
 @section('content')
 	<div class="container-fluid">
-		<div class="row">
+			<h3 class="n-header">+ new note</h3>
+
+		<div class="flex-row">
 			<div class="col-4">
-				<h3>fill up a new Note/</h3>
+				
 				<form method="post" action="/notes">
 					@csrf
 					<div class="form-group">
@@ -21,7 +23,10 @@
 						<label for="color">Color</label>
 						<input type="text" class="form-control {{$errors->has('color')?'border-danger':''}}" name="color" autocomplete="off" placeholder="red or green or any #FFF code" value="{{old('color')}}">
 					</div>
-					<button type="submit" class="btn btn-outline-primary mt-3">Add Note</button>
+					<div class="text-right">
+						<button type="submit" class="btn btn-outline-dark n-options btn-sm mt-3">Add Note</button>
+					</div>
+					
 				</form>
 				@if($errors->any())
 					<div name="errorMessages" class="alert-danger mt-3 ml-3">
