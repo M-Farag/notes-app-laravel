@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"Mail",
+				"MailDeleted"
+			],
+			[
+				"btn-outline-",
+				"btn-outline-dark \tBootstrap 4 Class"
+			],
+			[
+				"row",
+				"flex-row \tBootstrap 4 Class"
+			],
+			[
+				"mt-",
+				"mt-5 \tBootstrap 4 Class"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
 				"twit",
 				"twitter"
 			],
@@ -143,42 +163,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "resources/views/layouts/master.blade.php",
-			"settings":
-			{
-				"buffer_size": 727,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 990,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/notes/index.blade.php",
-			"settings":
-			{
-				"buffer_size": 374,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/notes/show.blade.php",
-			"settings":
-			{
-				"buffer_size": 1692,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -294,31 +278,47 @@
 	"expanded_folders":
 	[
 		"/Users/mina/Code/mynotes",
-		"/Users/mina/Code/mynotes/notes-laravel"
+		"/Users/mina/Code/mynotes/app",
+		"/Users/mina/Code/mynotes/app/Events",
+		"/Users/mina/Code/mynotes/app/Listeners",
+		"/Users/mina/Code/mynotes/app/Mail",
+		"/Users/mina/Code/mynotes/app/Providers",
+		"/Users/mina/Code/mynotes/notes-laravel",
+		"/Users/mina/Code/mynotes/resources",
+		"/Users/mina/Code/mynotes/resources/views",
+		"/Users/mina/Code/mynotes/resources/views/mail"
 	],
 	"file_history":
 	[
-		"/Users/mina/Code/mynotes/resources/views/welcome.blade.php",
-		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
-		"/Users/mina/Code/mynotes/app/Note.php",
-		"/Users/mina/Code/mynotes/app/Http/Controllers/Auth/LoginController.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
+		"/Users/mina/Code/mynotes/README.md",
+		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
+		"/Users/mina/Code/mynotes/app/Events/NoteCreatedEvent.php",
 		"/Users/mina/Code/mynotes/app/Mail/NoteCreated.php",
+		"/Users/mina/Code/mynotes/app/Listeners/EmailUserWhenNoteCreated.php",
+		"/Users/mina/Code/mynotes/app/Note.php",
+		"/Users/mina/Code/mynotes/app/Providers/EventServiceProvider.php",
+		"/Users/mina/Code/mynotes/app/Mail/NoteUpdated.php",
+		"/Users/mina/Code/mynotes/resources/views/mail/note-updated.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/mail/noteDeleted.blade.php",
+		"/Users/mina/Code/mynotes/app/Mail/NoteDeleted.php",
+		"/Users/mina/Code/mynotes/public/index.php",
+		"/Users/mina/Code/mynotes/resources/views/welcome.blade.php",
+		"/Users/mina/Code/mynotes/app/Http/Controllers/Auth/LoginController.php",
 		"/Users/mina/Code/mynotes/resources/views/mail/note-created.blade.php",
 		"/Users/mina/Code/mynotes/.env",
 		"/Users/mina/Code/mynotes/resources/views/mail/project-created.blade.php",
 		"/Users/mina/Code/mynotes/app/Mail/ProjectCreated.php",
 		"/Users/mina/Code/mynotes/app/User.php",
-		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
 		"/Users/mina/Code/mynotes/app/Providers/AuthServiceProvider.php",
-		"/Users/mina/Code/mynotes/README.md",
 		"/Users/mina/Code/mynotes/app/Policies/NotePolicy.php",
 		"/Users/mina/Code/mynotes/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/Users/mina/Code/mynotes/app/Http/Middleware/RedirectIfAuthenticated.php",
-		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
-		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
 		"/Users/mina/Code/mynotes/database/migrations/2018_12_31_233720_create_notes_table.php",
-		"/Users/mina/Code/mynotes/public/index.php",
 		"/Users/mina/Code/mynotes/routes/web.php",
 		"/Users/mina/Code/mynotes/app/Providers/SocialServicesProvider.php",
 		"/Users/mina/Code/mynotes/config/app.php",
@@ -331,7 +331,6 @@
 		"/Users/mina/Code/mynotes/app/Hint.php",
 		"/Users/mina/Code/mynotes/now.json",
 		"/Users/mina/Code/mynotes/database/migrations/2019_01_01_202946_create_hints_table.php",
-		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
 		"/Users/mina/Code/myworkspace/routes/web.php",
 		"/Users/mina/Code/myworkspace/resources/views/welcome.blade.php",
 		"/Users/mina/Code/myworkspace/.env",
@@ -418,14 +417,7 @@
 		"/Users/mina/Code/demo/app/Part.php",
 		"/Users/mina/Code/demo/database/migrations/2018_11_20_182531_create_parts_table.php",
 		"/Users/mina/Code/demo/app/Http/Controllers/laptopsController.php",
-		"/Users/mina/Code/demo/resources/views/laptops/edit.blade.php",
-		"/Users/mina/Code/demo/resources/views/laptops/show.blade.php",
-		"/Users/mina/Code/demo/resources/views/laptops/index.blade.php",
-		"/Users/mina/Code/demo/resources/views/laptops/create.blade.php",
-		"/Users/mina/Code/demo/resources/views/templates/laptopsTemplate.blade.php",
-		"/Users/mina/Code/demo/database/migrations/2018_11_20_124247_create_laptops_table.php",
-		"/Users/mina/Code/demo/app/Http/Controllers/tasksStudentController.php",
-		"/Users/mina/Code/demo/app/Task.php"
+		"/Users/mina/Code/demo/resources/views/laptops/edit.blade.php"
 	],
 	"find":
 	{
@@ -443,6 +435,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form-group",
+			"221e32",
+			"red",
 			"col-4",
 			"col-md-12",
 			"col-4",
@@ -467,132 +462,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "resources/views/layouts/master.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 727,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								347,
-								347
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 990,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								892,
-								892
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 116.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resources/views/notes/index.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 374,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/notes/show.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1692,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								168,
-								168
-							],
-							[
-								411,
-								411
-							],
-							[
-								931,
-								931
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -645,12 +516,80 @@
 		"selected_items":
 		[
 			[
-				"read",
-				"README.md"
+				"edit",
+				"resources/views/notes/edit.blade.php"
 			],
 			[
 				"show",
 				"resources/views/notes/show.blade.php"
+			],
+			[
+				"master",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
+				"index.b",
+				"resources/views/notes/index.blade.php"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"creat",
+				"resources/views/notes/create.blade.php"
+			],
+			[
+				"note",
+				"app/Note.php"
+			],
+			[
+				"app/not",
+				"app/Note.php"
+			],
+			[
+				"notescon",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				"NoteUpda",
+				"app/Mail/NoteUpdated.php"
+			],
+			[
+				"note-up",
+				"resources/views/mail/note-updated.blade.php"
+			],
+			[
+				"Note",
+				"app/Note.php"
+			],
+			[
+				"r/v/m/note",
+				"resources/views/mail/noteDeleted.blade.php"
+			],
+			[
+				"noteDele",
+				"app/Mail/NoteDeleted.php"
+			],
+			[
+				"NoteDet",
+				"app/Mail/NoteDeleted.php"
+			],
+			[
+				"notecont",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				"NoteDel",
+				"app/Mail/NoteDeleted.php"
+			],
+			[
+				"notesco",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				"index",
+				"public/index.php"
 			],
 			[
 				"index.bl",
@@ -659,10 +598,6 @@
 			[
 				"welcom",
 				"resources/views/welcome.blade.php"
-			],
-			[
-				"master",
-				"resources/views/layouts/master.blade.php"
 			],
 			[
 				"maste",
@@ -701,10 +636,6 @@
 				"app/Mail/ProjectCreated.php"
 			],
 			[
-				"creat",
-				"resources/views/notes/create.blade.php"
-			],
-			[
 				"user",
 				"app/User.php"
 			],
@@ -729,10 +660,6 @@
 				"resources/views/notes/show.blade.php"
 			],
 			[
-				"notecont",
-				"app/Http/Controllers/NotesController.php"
-			],
-			[
 				"d/m/user",
 				"database/migrations/2014_10_12_000000_create_users_table.php"
 			],
@@ -743,10 +670,6 @@
 			[
 				"v/n/in",
 				"resources/views/notes/index.blade.php"
-			],
-			[
-				"index",
-				"public/index.php"
 			],
 			[
 				"d/m/cre",
@@ -785,10 +708,6 @@
 				"app/Hint.php"
 			],
 			[
-				"note",
-				"app/Note.php"
-			],
-			[
 				"noteshints",
 				"app/Http/Controllers/NotesHintsController.php"
 			],
@@ -819,10 +738,6 @@
 			[
 				"r/v/c",
 				"resources/views/notes/create.blade.php"
-			],
-			[
-				"Note",
-				"app/Note.php"
 			],
 			[
 				"mast",
@@ -901,7 +816,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 247.0,
+	"side_bar_width": 314.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

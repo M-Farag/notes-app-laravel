@@ -1,9 +1,8 @@
-# Notes App
+# MyNotes
 ### this is a simple Notes App built with laravel 5.7
+	>yoursite.com/__notes__ to start it.
 
-__you'll find the link in the welcome page or you can just request '/notes' to find the application__
-
-__Features:__
+## __Features:__
 1. adding notes OnTheGo.
 2. Updating , deleting Notes.
 3. Form Validation with custome messages.
@@ -21,12 +20,16 @@ __Features:__
 6. EMail Notifications:
 	* when adding , updating or deleting a note.
 
-__Updates__
+
+
+## __Updates__
 > system is still on development. More New features will be added later-on.
 1. Notes can contain a picture.
 2. Admin can change user role from (user:admin OR admin:user)
 
-__Bug Log__(older to newer)
+
+
+## __Bug Log__(older to newer)
 * every loggedIn user can see others' Notes. (fixed)
 * Email Notification Bug. (fixed)
 * returning back to Note-edit-form not to Note-Details when editing it. (fixed)
