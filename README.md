@@ -1,6 +1,6 @@
 # MyNotes
 ### this is a simple Notes App built with laravel 5.7
-	yoursite.com/__notes__ to start it.
+	yoursite.com/notes to start it.
 
 ## __Features:__
 1. adding notes OnTheGo.
