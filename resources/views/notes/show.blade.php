@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title',$note->title)
+@section('title','MyNotes: '.$note->title)
 
 @section('content')
 	<div class="container-fluid">

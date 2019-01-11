@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>@yield('title','My Notes v1.0')</title>
+	<title>@yield('title','MyNotes')</title>
 	<link rel="stylesheet" type="text/css" href="/css/app.css">
 	<style type="text/css">
 		
