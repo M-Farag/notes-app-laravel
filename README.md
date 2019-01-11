@@ -4,27 +4,30 @@
 __you'll find the link in the welcome page or you can just request '/notes' to find the application__
 
 __Features:__
-1. adding notes on the go.
-	*loggedUser can add Notes to his own account.
-	*also adding Hints as a sub_note checklist.
-2. editing , deleting Notes.
-3. Data Validation with custome messages.
-4. adding Hints in notes as sub tasks or points to be checked 'completed/not-completed'
-5. users auth-system.
-	* can register
-	* can login
-	* can add own Notes and Hints(subNotes)
-	
+1. adding notes OnTheGo.
+2. Updating , deleting Notes.
+3. Form Validation with custome messages.
+4. adding Hints beneath each note as sub To-Do List.
+5. users authentication-system.
+	* can register.
+	* can login/logout.
+	* can add own Notes and Hints(subNotes - ToDo list).
+	* can check Hints as (completed or inCompleted).
 	* user-Groups
-		* default-user group is : (1) __and it's the default value foreach new user__ .
-		* admin-group is : (2) __this needs to be setup manually__ .
+		* default users' group id is : 1.
+		* admin users' group id is : 2.
+			>needs to be edited manually in the DB users-table.
 
 6. EMail Notifications:
-	* when user adds a new note.
+	* when adding , updating or deleting a note.
 
 __Updates__
 > system is still on development. More New features will be added later-on.
-1. Notes could contain an Image.
-__Bug Log__
-* every loggedIn user can see others' Notes (Fixed)
-* Email Notification Bug (Fixed)
+1. Notes can contain a picture.
+2. Admin can change user role from (user:admin OR admin:user)
+
+__Bug Log__(older to newer)
+* every loggedIn user can see others' Notes. (fixed)
+* Email Notification Bug. (fixed)
+* returning back to Note-edit-form not to Note-Details when editing it. (fixed)
+* Error messages when updating a note. (fixed)

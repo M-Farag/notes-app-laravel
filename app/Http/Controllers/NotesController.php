@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Note;
 use Illuminate\Http\Request;
 use App\Mail\NoteCreated;
+use App\Mail\NoteDeleted;
+use App\Events\NoteCreatedEvent;
 class NotesController extends Controller
 {
 
@@ -53,9 +55,11 @@ class NotesController extends Controller
         $validated['owner_id'] = auth()->id();
         $note = Note::create($validated);
         //send Mail
-        \Mail::to($note->owner->email)->send(
-            new NoteCreated($note)
-        );
+            // \Mail::to($note->owner->email)->send(
+            //     new NoteCreated($note)
+            // );
+        //fire custome event
+        event(new NoteCreatedEvent($note));
         return redirect('notes');
     }
 
@@ -106,7 +110,8 @@ class NotesController extends Controller
         $validated = $this->validatedNotes($request);
         $note->update($validated);
 
-        return back();
+        
+        return redirect('/notes/'.$note->id);
     }
 
     /**
@@ -118,7 +123,7 @@ class NotesController extends Controller
     public function destroy(Note $note)
     {
         $this->authorize('update',$note);
-        //
+        // # Note-hook-email #  
        $note->delete();
        return redirect('notes');
     }
