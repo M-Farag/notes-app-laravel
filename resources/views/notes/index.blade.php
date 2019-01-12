@@ -3,11 +3,23 @@
 
 @section('content')
 	<div class="container-fluid">
-		<div class="row">
+		<h3 class="n-header">{{$user->name."'s"}} notes</h3>
+		@if($user->unreadNotifications)
+		<div id="notificationBox" class="flex-row alert-info mt-3 mb-3">
+			
+			@foreach($user->unreadNotifications as $notification)
+				<div class="notification-div">{{$notification['data']['msg']}}</div>
+			@endforeach
+
+		</ul>
+		</div>
+		@endif
+		
+		<div class="flex-row">
 			<div class="col-6">
-				<h3 class="n-header">{{$user->name."'s"}} notes</h3>
+				
 				<ul>
-					@foreach($notes as $note)
+					@foreach($user->notes as $note)
 						<li><a href="/notes/{{$note->id}}" >{{$note->title}}</a></li>
 					@endforeach
 				</ul>

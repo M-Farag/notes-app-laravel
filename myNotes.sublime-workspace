@@ -290,12 +290,12 @@
 	],
 	"file_history":
 	[
+		"/Users/mina/Code/mynotes/README.md",
 		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
-		"/Users/mina/Code/mynotes/README.md",
 		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
 		"/Users/mina/Code/mynotes/app/Events/NoteCreatedEvent.php",
 		"/Users/mina/Code/mynotes/app/Mail/NoteCreated.php",
@@ -516,6 +516,10 @@
 		"selected_items":
 		[
 			[
+				"read",
+				"README.md"
+			],
+			[
 				"edit",
 				"resources/views/notes/edit.blade.php"
 			],
@@ -530,10 +534,6 @@
 			[
 				"index.b",
 				"resources/views/notes/index.blade.php"
-			],
-			[
-				"read",
-				"README.md"
 			],
 			[
 				"creat",

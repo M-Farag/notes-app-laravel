@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Mail\NoteCreated;
 use App\Mail\NoteDeleted;
 use App\Events\NoteCreatedEvent;
+use App\Notifications\NoteCreatedNotification;
+
 class NotesController extends Controller
 {
 
@@ -21,12 +23,13 @@ class NotesController extends Controller
      */
     public function index()
     {
+        $user = auth()->user();
+        $user->unreadNotifications->markAsRead();
         //
         return view('notes.index')->with([
-            // 'notes'=>Note::where('owner_id',auth()->id())->get(),
-            'notes'=>auth()->user()->notes,
-            'user'=> auth()->user()
+            'user'=> $user
         ]);
+
     }
 
     /**
@@ -59,7 +62,9 @@ class NotesController extends Controller
             //     new NoteCreated($note)
             // );
         //fire custome event
-        event(new NoteCreatedEvent($note));
+            //event(new NoteCreatedEvent($note));
+        //using Notify
+        auth()->user()->notify(new NoteCreatedNotification($note));
         return redirect('notes');
     }
 

@@ -77,6 +77,14 @@
 		a:active{
 			color: #604962;
 		}
+
+		.notification-div{
+			font-family: 'Abel', sans-serif;
+			font-weight: 250;
+			font-size: 20px;
+			word-spacing: 2px;
+			color: #221e32;
+		}
 	</style>
 </head>
 <body>
