@@ -101,7 +101,7 @@
 	<div class="container-fluid mt-4">
 		<div class="row">
 			<ul>
-				<li><a href="/notes">all notes</a></li>
+				<li><a href="/notes">home</a></li>
 				<li><a href="/notes/create">add a note</a></li>
 				<li><a href="/home">dashboard</a></li>
 			</ul>
