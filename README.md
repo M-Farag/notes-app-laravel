@@ -19,7 +19,7 @@
 
 6. EMail Notifications:
 	* when adding , updating or deleting a note.
-
+7. Home-Page Notifictaions.
 
 
 ## __Updates__
