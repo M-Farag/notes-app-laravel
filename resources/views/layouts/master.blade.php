@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>@yield('title','MyNotes')</title>
-	<link rel="stylesheet" type="text/css" href="/css/app.css">
+	<link rel="stylesheet" type="text/css" href="{{mix('/css/app.css')}}">
 	<style type="text/css">
 		
 		@import url('https://fonts.googleapis.com/css?family=Abel');
@@ -107,6 +107,8 @@
 			</ul>
 		</div>
 	</div>
-	<script type="text/javascript" src="/js/app.js"></script>
+	<script type="text/javascript" src="{{mix('/js/app.js')}}"></script>
+	<script type="text/javascript" src="{{mix('/js/manifest.js')}}"></script>
+	<script type="text/javascript" src="{{mix('/js/vendor.js')}}"></script>
 </body>
 </html>

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"not",
+				"notifications"
+			],
+			[
 				"Mail",
 				"MailDeleted"
 			],
@@ -163,6 +167,58 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/User.php",
+			"settings":
+			{
+				"buffer_size": 649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/notes/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 680,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/master.blade.php",
+			"settings":
+			{
+				"buffer_size": 2068,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1113,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/notes/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 1470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/NotesController.php",
+			"settings":
+			{
+				"buffer_size": 3526,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -176,6 +232,10 @@
 		"selected_items":
 		[
 			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
 				"project ",
 				"Project: Close"
 			],
@@ -186,10 +246,6 @@
 			[
 				"remov",
 				"Package Control: Remove Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"packa",
@@ -279,19 +335,18 @@
 	[
 		"/Users/mina/Code/mynotes",
 		"/Users/mina/Code/mynotes/app",
-		"/Users/mina/Code/mynotes/app/Events",
-		"/Users/mina/Code/mynotes/app/Listeners",
-		"/Users/mina/Code/mynotes/app/Mail",
+		"/Users/mina/Code/mynotes/app/Notifications",
 		"/Users/mina/Code/mynotes/app/Providers",
-		"/Users/mina/Code/mynotes/notes-laravel",
-		"/Users/mina/Code/mynotes/resources",
-		"/Users/mina/Code/mynotes/resources/views",
-		"/Users/mina/Code/mynotes/resources/views/mail"
+		"/Users/mina/Code/mynotes/notes-laravel"
 	],
 	"file_history":
 	[
-		"/Users/mina/Code/mynotes/README.md",
+		"/Users/mina/Code/mynotes/public/index.php",
+		"/Users/mina/Code/mynotes/app/Notifications/NoteCreatedNotification.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
+		"/Users/mina/Code/mynotes/app/Note.php",
+		"/Users/mina/Code/mynotes/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php",
+		"/Users/mina/Code/mynotes/README.md",
 		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
@@ -300,13 +355,11 @@
 		"/Users/mina/Code/mynotes/app/Events/NoteCreatedEvent.php",
 		"/Users/mina/Code/mynotes/app/Mail/NoteCreated.php",
 		"/Users/mina/Code/mynotes/app/Listeners/EmailUserWhenNoteCreated.php",
-		"/Users/mina/Code/mynotes/app/Note.php",
 		"/Users/mina/Code/mynotes/app/Providers/EventServiceProvider.php",
 		"/Users/mina/Code/mynotes/app/Mail/NoteUpdated.php",
 		"/Users/mina/Code/mynotes/resources/views/mail/note-updated.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/mail/noteDeleted.blade.php",
 		"/Users/mina/Code/mynotes/app/Mail/NoteDeleted.php",
-		"/Users/mina/Code/mynotes/public/index.php",
 		"/Users/mina/Code/mynotes/resources/views/welcome.blade.php",
 		"/Users/mina/Code/mynotes/app/Http/Controllers/Auth/LoginController.php",
 		"/Users/mina/Code/mynotes/resources/views/mail/note-created.blade.php",
@@ -415,9 +468,7 @@
 		"/Users/mina/Code/demo/routes/web.php",
 		"/Users/mina/Code/demo/app/Laptop.php",
 		"/Users/mina/Code/demo/app/Part.php",
-		"/Users/mina/Code/demo/database/migrations/2018_11_20_182531_create_parts_table.php",
-		"/Users/mina/Code/demo/app/Http/Controllers/laptopsController.php",
-		"/Users/mina/Code/demo/resources/views/laptops/edit.blade.php"
+		"/Users/mina/Code/demo/database/migrations/2018_11_20_182531_create_parts_table.php"
 	],
 	"find":
 	{
@@ -462,14 +513,192 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/notes/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/layouts/master.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1863,
+								1863
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2141.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 143.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/notes/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 666.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Controllers/NotesController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1332.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 46.0
 	},
 	"input":
 	{
@@ -516,6 +745,46 @@
 		"selected_items":
 		[
 			[
+				"readm",
+				"README.md"
+			],
+			[
+				"mast",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
+				"creat",
+				"resources/views/notes/create.blade.php"
+			],
+			[
+				"index",
+				"resources/views/notes/index.blade.php"
+			],
+			[
+				"note",
+				"app/Note.php"
+			],
+			[
+				"index.",
+				"resources/views/notes/index.blade.php"
+			],
+			[
+				"notescont",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"mailmess",
+				"vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php"
+			],
+			[
+				"noteCreatedNot",
+				"app/Notifications/NoteCreatedNotification.php"
+			],
+			[
 				"read",
 				"README.md"
 			],
@@ -534,14 +803,6 @@
 			[
 				"index.b",
 				"resources/views/notes/index.blade.php"
-			],
-			[
-				"creat",
-				"resources/views/notes/create.blade.php"
-			],
-			[
-				"note",
-				"app/Note.php"
 			],
 			[
 				"app/not",
@@ -588,10 +849,6 @@
 				"app/Http/Controllers/NotesController.php"
 			],
 			[
-				"index",
-				"public/index.php"
-			],
-			[
 				"index.bl",
 				"resources/views/notes/index.blade.php"
 			],
@@ -636,10 +893,6 @@
 				"app/Mail/ProjectCreated.php"
 			],
 			[
-				"user",
-				"app/User.php"
-			],
-			[
 				"noteCon",
 				"app/Http/Controllers/NotesController.php"
 			],
@@ -662,10 +915,6 @@
 			[
 				"d/m/user",
 				"database/migrations/2014_10_12_000000_create_users_table.php"
-			],
-			[
-				"notescont",
-				"app/Http/Controllers/NotesController.php"
 			],
 			[
 				"v/n/in",
@@ -738,10 +987,6 @@
 			[
 				"r/v/c",
 				"resources/views/notes/create.blade.php"
-			],
-			[
-				"mast",
-				"resources/views/layouts/master.blade.php"
 			],
 			[
 				"notesC",

@@ -4,6 +4,7 @@
 @section('content')
 	<div class="container-fluid">
 		<h3 class="n-header">{{$user->name."'s"}} notes</h3>
+		<div id='example'></div>
 		@if($user->unreadNotifications)
 		<div id="notificationBox" class="flex-row alert-info mt-3 mb-3">
 			
