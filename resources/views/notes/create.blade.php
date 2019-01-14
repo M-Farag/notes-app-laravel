@@ -8,7 +8,7 @@
 		<div class="flex-row">
 			<div class="col-4">
 				
-				<form method="post" action="/notes">
+				<form enctype="multipart/form-data" method="post" action="/notes"  >
 					@csrf
 					<div class="form-group">
 						<label for="title">Title</label>
@@ -22,6 +22,10 @@
 					<div class="form-group">
 						<label for="color">Color</label>
 						<input type="text" class="form-control {{$errors->has('color')?'border-danger':''}}" name="color" autocomplete="off" placeholder="red or green or any #FFF code" value="{{old('color')}}">
+					</div>
+					<div class="form-group">
+						<label for="image">Image</label>
+						<input type="file"  class="form-control-file  {{$errors->has('image')?'border-danger':''}}" name="image" autocomplete="off" placeholder="upload Image" value="{{old('image')}}">
 					</div>
 					<div class="text-right">
 						<button type="submit" class="btn btn-outline-dark n-options btn-sm mt-3">Add Note</button>

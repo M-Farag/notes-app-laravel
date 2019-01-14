@@ -51,11 +51,12 @@ class NotesController extends Controller
      */
     public function store(Request $request)
     {
-
+        
         //validation
         $validated = $this->validatedNotes($request);
         //appending owner_id
         $validated['owner_id'] = auth()->id();
+        $validated['image']= $request->file('image')->store('images','ftp');
         $note = Note::create($validated);
         //send Mail
             // \Mail::to($note->owner->email)->send(
@@ -64,7 +65,7 @@ class NotesController extends Controller
         //fire custome event
             //event(new NoteCreatedEvent($note));
         //using Notify
-        auth()->user()->notify(new NoteCreatedNotification($note));
+        //auth()->user()->notify(new NoteCreatedNotification($note));
         return redirect('notes');
     }
 
@@ -136,7 +137,8 @@ class NotesController extends Controller
        return $request->validate([
             'title'=>['required','min:3','max:100'],
             'details'=>['required','min:10','max:1000'],
-            'color'=>['required','min:3']
+            'color'=>['nullable','min:3'],
+            'image'=>['image']
         ],
             [
                 //adding Custome Messages

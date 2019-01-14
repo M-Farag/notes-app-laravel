@@ -12,6 +12,7 @@
 				<p  class="pl-3 n-body">
 					{{$note->details}}
 				</p>
+				<img src="{{config('services.images.noteImage').$note->image}}" width="300px" height="300px" />
 			</div>
 			
 			@if ($note->hints->count())

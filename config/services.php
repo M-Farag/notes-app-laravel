@@ -42,6 +42,10 @@ return [
     'twitter'=>[
         'public'=>env('TWITTER_PUB'),
         'secret'=>env('TWITTER_SEC'),
+    ],
+    'images'=>[
+        'noteImage'=>env('FTP_PATH'),
+        'userProfileImage'=>''
     ]
 
 ];

@@ -18,7 +18,8 @@ class CreateNotesTable extends Migration
             $table->unsignedInteger('owner_id');
             $table->string('title');
             $table->text('details');
-            $table->string('color');
+            $table->string('color')->nullable();
+            $table->string('image');
             $table->timestamps();
 
             //foreign key
