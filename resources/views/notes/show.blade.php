@@ -8,11 +8,15 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-lg-4 mb-4">
+				@if($noteImagePath)
+				<div>
+					<img src="{{$noteImagePath}}" class="img-fluid" />
+				</div>
+				@endif
 				<!-- style="color:{{$note->color}}" -->
 				<p  class="pl-3 n-body">
 					{{$note->details}}
 				</p>
-				<img src="{{config('services.images.noteImage').$note->image}}" width="300px" height="300px" />
 			</div>
 			
 			@if ($note->hints->count())

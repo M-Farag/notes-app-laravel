@@ -7,7 +7,7 @@
 		<div class="flex-row">
 			<div class="col-4">
 				
-				<form method="post" action="/notes/{{$note->id}}">
+				<form enctype="multipart/form-data" method="post" action="/notes/{{$note->id}}">
 					@csrf
 					@method('patch')
 					<div class="form-group mb-4">
@@ -22,6 +22,21 @@
 					<div class="form-group mb-4">
 						<label for="color">Color</label>
 						<input type="text" class="form-control {{$errors->has('color')? 'border-danger':''}}" name="color" value="{{$note->color}}" autocomplete="off">
+					</div>
+					@if($noteImagePath)
+					<div class="form-group">
+						<div>
+							<label>Current Image</label>
+							<img src="{{$noteImagePath}}" class="img-thumbnail">
+						</div>
+					</div>
+					@endif
+					<div class="form-group">
+						<label for="image">Image</label>
+						<input type="file"  class="form-control-file  {{$errors->has('image')?'border-danger':''}}" name="image" autocomplete="off" placeholder="upload Image" value="">
+						<small id="imageHelpBlock" class="form-text text-muted">
+  						* select a new picture to add or update the old one
+						</small>
 					</div>
 					<div class="text-right">
 						<button type="submit" class="btn btn-outline-dark mt-3">Update Note</button>

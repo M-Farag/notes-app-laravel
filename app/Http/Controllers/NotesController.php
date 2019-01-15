@@ -51,12 +51,15 @@ class NotesController extends Controller
      */
     public function store(Request $request)
     {
-        
+       
         //validation
         $validated = $this->validatedNotes($request);
         //appending owner_id
         $validated['owner_id'] = auth()->id();
-        $validated['image']= $request->file('image')->store('images','ftp');
+        if($request->has('image')){
+            $validated['image']= $request->file('image')->store('images/'.auth()->id(),'ftp');
+        }
+        
         $note = Note::create($validated);
         //send Mail
             // \Mail::to($note->owner->email)->send(
@@ -82,7 +85,8 @@ class NotesController extends Controller
         
         return view('notes.show')->with(
             [
-                'note'=> $note
+                'note'=> $note,
+                'noteImagePath'=> $this->noteImagePath($note,'ftp')
             ]
         );
     }
@@ -98,7 +102,8 @@ class NotesController extends Controller
         $this->authorize('update',$note);
         //showing form
         return view('notes.edit')->with([
-            'note'=>$note
+            'note'=>$note,
+            'noteImagePath'=> $this->noteImagePath($note,'ftp')
         ]);
     }
 
@@ -114,6 +119,11 @@ class NotesController extends Controller
         $this->authorize('update',$note);
         //validation
         $validated = $this->validatedNotes($request);
+        if($request->has('image')){
+            //delete old image
+            $this->deleteNoteImage($note,'ftp');
+           $validated['image']= \Storage::disk('ftp')->put('images/'.auth()->id(),$request->file('image'));
+        }
         $note->update($validated);
 
         
@@ -129,6 +139,8 @@ class NotesController extends Controller
     public function destroy(Note $note)
     {
         $this->authorize('update',$note);
+        //deleting attachedFiles if exist
+        $this->deleteNoteImage($note,'ftp');
         // # Note-hook-email #  
        $note->delete();
        return redirect('notes');
@@ -145,5 +157,21 @@ class NotesController extends Controller
                 'title.required'=>'Title not here'
             ]
         );
+    }
+
+    //deleting attached Images
+    protected function deleteNoteImage($note,$disk =''){
+        \Storage::disk($disk)->delete($note->image);
+    }
+
+    protected function noteImagePath($note,$disk = ''){
+       if($note->image){
+             if($disk === 'ftp'){
+                return config('filesystems.disks.ftp.url').'/'.$note->image;
+            }
+       }else{
+        return null;
+       }
+        
     }
 }

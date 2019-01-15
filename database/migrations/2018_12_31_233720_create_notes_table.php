@@ -19,7 +19,7 @@ class CreateNotesTable extends Migration
             $table->string('title');
             $table->text('details');
             $table->string('color')->nullable();
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->timestamps();
 
             //foreign key
