@@ -19,6 +19,7 @@
 7. Home-Page Notifictaions.
 8. ToDos or Hints can be checked-Completed or inCompleted.
 9. you can upload a picture with every note you add.
+	> Dont forget to update .env file with your FTP-API-CODES.
 
 ## __UpGrades__
 1. MyNotes Now using ReactJs.
