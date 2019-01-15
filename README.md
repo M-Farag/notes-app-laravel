@@ -3,7 +3,7 @@
 	yoursite.com/notes to start it.
 
 ### __screenShot__ 1/15/2019
-![ScreenShot of MyNotes v 3.2 ](https://github.com/MunchVue/notes-app-laravel/screenShots/2.png)
+![ScreenShot of MyNotes v 3.2 ](https://github.com/MunchVue/notes-app-laravel/blob/master/screenShots/2.png)
 
 ## __Features:__
 1. Add notes OnTheGo.
