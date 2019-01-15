@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"dele",
+				"deleteNoteImage"
+			],
+			[
+				"path",
+				"pathAttached"
+			],
+			[
+				"disk",
+				"diskIs"
+			],
+			[
 				"form",
 				"formenctype\tAttr"
 			],
@@ -179,15 +191,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/Http/Controllers/NotesController.php",
-			"settings":
-			{
-				"buffer_size": 3640,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -307,25 +310,23 @@
 	"expanded_folders":
 	[
 		"/Users/mina/Code/mynotes",
-		"/Users/mina/Code/mynotes/app",
-		"/Users/mina/Code/mynotes/app/Http",
-		"/Users/mina/Code/mynotes/app/Http/Controllers",
-		"/Users/mina/Code/mynotes/notes-laravel"
+		"/Users/mina/Code/mynotes/config"
 	],
 	"file_history":
 	[
-		"/Users/mina/Code/mynotes/app/Http/Controllers/Controller.php",
-		"/Users/mina/Code/mynotes/config/filesystems.php",
+		"/Users/mina/Code/mynotes/README.md",
 		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
-		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
-		"/Users/mina/Code/mynotes/config/services.php",
-		"/Users/mina/Code/mynotes/.env",
 		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
+		"/Users/mina/Code/mynotes/.env",
+		"/Users/mina/Code/mynotes/config/filesystems.php",
 		"/Users/mina/Code/mynotes/database/migrations/2018_12_31_233720_create_notes_table.php",
+		"/Users/mina/Code/mynotes/app/Http/Controllers/Controller.php",
+		"/Users/mina/Code/mynotes/config/services.php",
 		"/Users/mina/Code/mynotes/s3-file",
 		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
 		"/Users/mina/Code/mynotes/resources/js/components/Example.js",
-		"/Users/mina/Code/mynotes/README.md",
 		"/Users/mina/Code/mynotes/webpack.mix.js",
 		"/Users/mina/Code/mynotes/package.json",
 		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
@@ -334,7 +335,6 @@
 		"/Users/mina/Code/mynotes/app/Notifications/NoteCreatedNotification.php",
 		"/Users/mina/Code/mynotes/app/Note.php",
 		"/Users/mina/Code/mynotes/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php",
-		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
 		"/Users/mina/Code/mynotes/app/Events/NoteCreatedEvent.php",
 		"/Users/mina/Code/mynotes/app/Mail/NoteCreated.php",
 		"/Users/mina/Code/mynotes/app/Listeners/EmailUserWhenNoteCreated.php",
@@ -459,6 +459,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pathAttached",
+			"deleteAttached",
 			"form-group",
 			"221e32",
 			"red",
@@ -486,39 +488,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/Http/Controllers/NotesController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3640,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								242,
-								252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -571,6 +542,38 @@
 		"selected_items":
 		[
 			[
+				"read",
+				"README.md"
+			],
+			[
+				"files",
+				"config/filesystems.php"
+			],
+			[
+				"create_n",
+				"database/migrations/2018_12_31_233720_create_notes_table.php"
+			],
+			[
+				"show",
+				"resources/views/notes/show.blade.php"
+			],
+			[
+				"create.b",
+				"resources/views/notes/create.blade.php"
+			],
+			[
+				"edi",
+				"resources/views/notes/edit.blade.php"
+			],
+			[
+				"edit",
+				"resources/views/notes/edit.blade.php"
+			],
+			[
+				"c/fi",
+				"config/filesystems.php"
+			],
+			[
 				"c/filesys",
 				"config/filesystems.php"
 			],
@@ -583,10 +586,6 @@
 				"app/Http/Controllers/NotesController.php"
 			],
 			[
-				"show",
-				"resources/views/notes/show.blade.php"
-			],
-			[
 				"filesys",
 				"config/filesystems.php"
 			],
@@ -595,16 +594,8 @@
 				"database/migrations/2018_12_31_233720_create_notes_table.php"
 			],
 			[
-				"create.b",
-				"resources/views/notes/create.blade.php"
-			],
-			[
 				"notesco",
 				"app/Http/Controllers/NotesController.php"
-			],
-			[
-				"read",
-				"README.md"
 			],
 			[
 				"index.b",
@@ -649,10 +640,6 @@
 			[
 				"noteCreatedNot",
 				"app/Notifications/NoteCreatedNotification.php"
-			],
-			[
-				"edit",
-				"resources/views/notes/edit.blade.php"
 			],
 			[
 				"app/not",

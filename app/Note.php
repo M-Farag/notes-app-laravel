@@ -41,5 +41,13 @@ class Note extends Model
     public function owner(){
         return $this->belongsTo(USER::class);
     }
+
+    public function hasImage(){
+        return (bool) $this->image;
+    }
+
+    public function hasNoImage(){
+        return ! $this->hasImage(); 
+    }
     
 }

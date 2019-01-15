@@ -122,7 +122,7 @@ class NotesController extends Controller
         if($request->has('image')){
             //delete old image
             $this->deleteNoteImage($note,'ftp');
-           $validated['image']= \Storage::disk('ftp')->put('images/'.auth()->id(),$request->file('image'));
+           $validated['image'] = \Storage::disk('ftp')->put('images/'.auth()->id(),$request->file('image'));
         }
         $note->update($validated);
 

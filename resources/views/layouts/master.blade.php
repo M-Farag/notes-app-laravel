@@ -3,6 +3,7 @@
 <head>
 	<title>@yield('title','MyNotes')</title>
 	<link rel="stylesheet" type="text/css" href="{{mix('/css/app.css')}}">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<style type="text/css">
 		
 		@import url('https://fonts.googleapis.com/css?family=Abel');
@@ -85,6 +86,10 @@
 			word-spacing: 2px;
 			color: #221e32;
 		}
+
+		.icon-color{
+			color:#a87081;
+		}
 	</style>
 </head>
 <body>
@@ -93,7 +98,7 @@
 		<p>
 			+ it <span class="jumb-hint-color">onTheGo</span>.
 		</p>
-		<small>v2.0</small>
+		<small>v2.3</small>
 	</div>
 	
 	@yield('content')
