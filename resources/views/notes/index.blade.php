@@ -5,14 +5,10 @@
 	<div class="container-fluid">
 		<h3 class="n-header">{{$user->name."'s"}} notes ({{$user->notes->count()}})</h3>
 		<div id='example'></div>
-		@if($user->unreadNotifications)
+		
+		@if(session('message'))
 		<div id="notificationBox" class="flex-row alert-info mt-3 mb-3">
-			
-			@foreach($user->unreadNotifications as $notification)
-				<div class="notification-div">{{$notification['data']['msg']}}</div>
-			@endforeach
-
-		</ul>
+			<div class="notification-div">{{session('message')}}</div>
 		</div>
 		@endif
 		

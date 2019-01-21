@@ -24,7 +24,7 @@ class NotesController extends Controller
     public function index()
     {
         $user = auth()->user();
-        $user->unreadNotifications->markAsRead();
+        //$user->unreadNotifications->markAsRead();
         //
         return view('notes.index')->with([
             'user'=> $user
@@ -69,6 +69,11 @@ class NotesController extends Controller
             //event(new NoteCreatedEvent($note));
         //using Notify
         //auth()->user()->notify(new NoteCreatedNotification($note));
+
+        //session-Notification
+            //session()->flash('message','project Created');
+        //calling helper function to save session
+        flash('Project Created');
         return redirect('notes');
     }
 

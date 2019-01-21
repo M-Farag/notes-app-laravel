@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"has",
+				"hasImage"
+			],
+			[
 				"dele",
 				"deleteNoteImage"
 			],
@@ -310,12 +314,16 @@
 	"expanded_folders":
 	[
 		"/Users/mina/Code/mynotes",
-		"/Users/mina/Code/mynotes/config"
+		"/Users/mina/Code/mynotes/screenShots"
 	],
 	"file_history":
 	[
 		"/Users/mina/Code/mynotes/README.md",
+		"/Users/mina/Code/mynotes/app/Note.php",
+		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
+		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
 		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
+		"/Users/mina/Code/mynotes/app/User.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/edit.blade.php",
@@ -325,15 +333,11 @@
 		"/Users/mina/Code/mynotes/app/Http/Controllers/Controller.php",
 		"/Users/mina/Code/mynotes/config/services.php",
 		"/Users/mina/Code/mynotes/s3-file",
-		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
 		"/Users/mina/Code/mynotes/resources/js/components/Example.js",
 		"/Users/mina/Code/mynotes/webpack.mix.js",
 		"/Users/mina/Code/mynotes/package.json",
-		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
-		"/Users/mina/Code/mynotes/app/User.php",
 		"/Users/mina/Code/mynotes/public/index.php",
 		"/Users/mina/Code/mynotes/app/Notifications/NoteCreatedNotification.php",
-		"/Users/mina/Code/mynotes/app/Note.php",
 		"/Users/mina/Code/mynotes/vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php",
 		"/Users/mina/Code/mynotes/app/Events/NoteCreatedEvent.php",
 		"/Users/mina/Code/mynotes/app/Mail/NoteCreated.php",
@@ -546,6 +550,26 @@
 				"README.md"
 			],
 			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"maste",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
+				"index.b",
+				"resources/views/notes/index.blade.php"
+			],
+			[
+				"notesco",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				"Note",
+				"app/Note.php"
+			],
+			[
 				"files",
 				"config/filesystems.php"
 			],
@@ -594,14 +618,6 @@
 				"database/migrations/2018_12_31_233720_create_notes_table.php"
 			],
 			[
-				"notesco",
-				"app/Http/Controllers/NotesController.php"
-			],
-			[
-				"index.b",
-				"resources/views/notes/index.blade.php"
-			],
-			[
 				"master",
 				"resources/views/layouts/master.blade.php"
 			],
@@ -630,10 +646,6 @@
 				"resources/views/notes/index.blade.php"
 			],
 			[
-				"user",
-				"app/User.php"
-			],
-			[
 				"mailmess",
 				"vendor/laravel/framework/src/Illuminate/Notifications/Messages/MailMessage.php"
 			],
@@ -658,10 +670,6 @@
 				"resources/views/mail/note-updated.blade.php"
 			],
 			[
-				"Note",
-				"app/Note.php"
-			],
-			[
 				"r/v/m/note",
 				"resources/views/mail/noteDeleted.blade.php"
 			],
@@ -684,10 +692,6 @@
 			[
 				"welcom",
 				"resources/views/welcome.blade.php"
-			],
-			[
-				"maste",
-				"resources/views/layouts/master.blade.php"
 			],
 			[
 				"Note.php",
@@ -890,7 +894,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 314.0,
+	"side_bar_width": 351.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
