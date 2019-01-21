@@ -19,7 +19,7 @@
 					@foreach($user->notes as $note)
 						<li><a href="/notes/{{$note->id}}" >{{$note->title}}</a> 
 							@if($note->hasImage()) 
-								<i class="fas fa-camera fa-sm icon-color" title="note has image"></i>
+								{{iconLoader('camera')}}
 							@endif
 						</li>
 						
