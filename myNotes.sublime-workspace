@@ -314,15 +314,18 @@
 	"expanded_folders":
 	[
 		"/Users/mina/Code/mynotes",
-		"/Users/mina/Code/mynotes/screenShots"
+		"/Users/mina/Code/mynotes/vendor",
+		"/Users/mina/Code/mynotes/vendor/composer"
 	],
 	"file_history":
 	[
-		"/Users/mina/Code/mynotes/README.md",
-		"/Users/mina/Code/mynotes/app/Note.php",
-		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/index.blade.php",
 		"/Users/mina/Code/mynotes/app/Http/Controllers/NotesController.php",
+		"/Users/mina/Code/mynotes/app/helpers.php",
+		"/Users/mina/Code/mynotes/composer.json",
+		"/Users/mina/Code/mynotes/app/Note.php",
+		"/Users/mina/Code/mynotes/README.md",
+		"/Users/mina/Code/mynotes/resources/views/layouts/master.blade.php",
 		"/Users/mina/Code/mynotes/app/User.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/show.blade.php",
 		"/Users/mina/Code/mynotes/resources/views/notes/create.blade.php",
@@ -443,13 +446,11 @@
 		"/Users/mina/Code/myprojectmanager/resources/views/projects/show.blade.php",
 		"/Users/mina/Code/myprojectmanager/app/Http/Controllers/projectTasksController.php",
 		"/Users/mina/Code/myprojectmanager/database/migrations/2018_11_28_211242_create_tasks_table.php",
-		"/Users/mina/Code/myprojectmanager/resources/views/projects/edit.blade.php",
-		"/Users/mina/Code/myprojectmanager/resources/views/projects/create.blade.php",
-		"/Users/mina/Code/myprojectmanager/resources/views/templates/projectsTemplate.blade.php"
+		"/Users/mina/Code/myprojectmanager/resources/views/projects/edit.blade.php"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -546,6 +547,18 @@
 		"selected_items":
 		[
 			[
+				"note",
+				"app/Note.php"
+			],
+			[
+				"notesco",
+				"app/Http/Controllers/NotesController.php"
+			],
+			[
+				"index.b",
+				"resources/views/notes/index.blade.php"
+			],
+			[
 				"read",
 				"README.md"
 			],
@@ -556,14 +569,6 @@
 			[
 				"maste",
 				"resources/views/layouts/master.blade.php"
-			],
-			[
-				"index.b",
-				"resources/views/notes/index.blade.php"
-			],
-			[
-				"notesco",
-				"app/Http/Controllers/NotesController.php"
 			],
 			[
 				"Note",
@@ -636,10 +641,6 @@
 			[
 				"index",
 				"resources/views/notes/index.blade.php"
-			],
-			[
-				"note",
-				"app/Note.php"
 			],
 			[
 				"index.",
